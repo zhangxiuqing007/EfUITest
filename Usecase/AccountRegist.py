@@ -1,7 +1,7 @@
 from selenium import webdriver
 from PageObject.IndexPage import IndexPage
 from PageObject.CreateAccountInputPage import CreateAccountInputPage
-from Usecase.Login import login_finalTo_indexPage
+from Usecase.Login import login_final_to_index_page
 import uuid
 import time
 
@@ -35,7 +35,7 @@ def create_new_account_then_login(driver: webdriver.Chrome):
     # 返回首页
     driver.get("http://127.0.0.1:8080")
     # 利用刚注册的账号 登录
-    login_finalTo_indexPage(driver, account, pwd)
+    login_final_to_index_page(driver, account, pwd)
 
 
 if __name__ == "__main__":

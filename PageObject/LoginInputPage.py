@@ -2,7 +2,7 @@ from selenium import webdriver
 
 
 class LoginInputPage:
-    def __init__(self, driver: webdriver.Chrome):
+    def __init__(self, driver: webdriver.Firefox):
         self.driver = driver
 
     def get_account_input(self):

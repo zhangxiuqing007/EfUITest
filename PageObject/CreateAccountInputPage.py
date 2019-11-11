@@ -2,7 +2,7 @@ from selenium import webdriver
 
 
 class CreateAccountInputPage:
-    def __init__(self, driver: webdriver.Chrome):
+    def __init__(self, driver: webdriver.Firefox):
         self.driver = driver
 
     def find_name_input(self):

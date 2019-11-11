@@ -1,0 +1,5 @@
+imgs/head1.png
+imgs/head2.png
+imgs/head3.gif
+imgs/head4.gif
+imgs/head5.jpeg

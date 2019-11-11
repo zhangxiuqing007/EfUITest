@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff001c9d-6d2a-4196-8234-32e00af96cbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PageObject/CreateAccountInputPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObject/IndexPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObject/LoginInputPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObject/LoginSuccessPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StdLibTest/UuidTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Usecase/AccountRegist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/testH5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObject/CmtEditPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObject/EditTitlePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObject/HeadPhotoInputPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObject/NewPostInputPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObject/PostPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObject/ThemePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObject/UserPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StdLibTest/PathTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Usecase/EditPost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Usecase/FixMyHeadPhoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Usecase/TestThemesPostsUsersCmtPB.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/EfUITest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EfUITest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/CreateAccountInputPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/CreateAccountInputPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/IndexPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/IndexPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/LoginInputPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/LoginInputPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/LoginSuccessPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/LoginSuccessPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Usecase/AccountRegist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Usecase/AccountRegist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Usecase/Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Usecase/Login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usecase/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/Usecase/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Usecase/geckodriver.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -35,10 +47,16 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonExercise" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ZXQ\PycharmProjects\EfUITest\HTML" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,8 +70,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AccountRegist">
-    <configuration name="AccountRegist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.EditPost">
+    <configuration name="EditPost" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EfUITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +84,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Usecase/AccountRegist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Usecase/EditPost.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FixMyHeadPhoto" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EfUITest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Usecase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Usecase/FixMyHeadPhoto.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,29 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Login" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EfUITest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Usecase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Usecase/Login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="UuidTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PathTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EfUITest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,7 +150,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StdLibTest/UuidTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StdLibTest/PathTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UploadNewImages" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EfUITest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Usecase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Usecase/UploadNewImages.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,10 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.AccountRegist" />
-        <item itemvalue="Python.UuidTest" />
-        <item itemvalue="Python.Login" />
+        <item itemvalue="Python.EditPost" />
+        <item itemvalue="Python.FixMyHeadPhoto" />
+        <item itemvalue="Python.UploadNewImages" />
         <item itemvalue="Python.IndexPage" />
+        <item itemvalue="Python.PathTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +207,7 @@
       <workItem from="1573131283738" duration="64000" />
       <workItem from="1573131408682" duration="4826000" />
       <workItem from="1573219581680" duration="3097000" />
+      <workItem from="1573262968491" duration="24784000" />
     </task>
     <servers />
   </component>
@@ -185,10 +227,32 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py</url>
+          <line>471</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/EfUITest$Login.coverage" NAME="Login Coverage Results" MODIFIED="1573221936094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Usecase" />
-    <SUITE FILE_PATH="coverage/EfUITest$IndexPage.coverage" NAME="IndexPage Coverage Results" MODIFIED="1573133497425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageObject" />
-    <SUITE FILE_PATH="coverage/EfUITest$AccountRegist.coverage" NAME="AccountRegist Coverage Results" MODIFIED="1573222577300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Usecase" />
     <SUITE FILE_PATH="coverage/EfUITest$UuidTest.coverage" NAME="UuidTest Coverage Results" MODIFIED="1573222448434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StdLibTest" />
+    <SUITE FILE_PATH="coverage/EfUITest$ViewThemesPostsUsers.coverage" NAME="ViewThemesPostsUsers Coverage Results" MODIFIED="1573285841183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Usecase" />
+    <SUITE FILE_PATH="coverage/EfUITest$UploadNewImages.coverage" NAME="UploadNewImages Coverage Results" MODIFIED="1573308327708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Usecase" />
+    <SUITE FILE_PATH="coverage/EfUITest$AccountRegist.coverage" NAME="AccountRegist Coverage Results" MODIFIED="1573270092380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Usecase" />
+    <SUITE FILE_PATH="coverage/EfUITest$PathTest.coverage" NAME="PathTest Coverage Results" MODIFIED="1573290713285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StdLibTest" />
+    <SUITE FILE_PATH="coverage/EfUITest$IndexPage.coverage" NAME="IndexPage Coverage Results" MODIFIED="1573291612315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageObject" />
+    <SUITE FILE_PATH="coverage/EfUITest$UserPage.coverage" NAME="UserPage Coverage Results" MODIFIED="1573283905892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageObject" />
+    <SUITE FILE_PATH="coverage/EfUITest$NewPostInputPage.coverage" NAME="NewPostInputPage Coverage Results" MODIFIED="1573287635848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageObject" />
+    <SUITE FILE_PATH="coverage/EfUITest$Login.coverage" NAME="Login Coverage Results" MODIFIED="1573221936094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Usecase" />
+    <SUITE FILE_PATH="coverage/EfUITest$FixMyHeadPhoto.coverage" NAME="FixMyHeadPhoto Coverage Results" MODIFIED="1573308364851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Usecase" />
+    <SUITE FILE_PATH="coverage/EfUITest$EditPost.coverage" NAME="EditPost Coverage Results" MODIFIED="1573308599468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Usecase" />
+    <SUITE FILE_PATH="coverage/EfUITest$ThemePage.coverage" NAME="ThemePage Coverage Results" MODIFIED="1573280471665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageObject" />
+    <SUITE FILE_PATH="coverage/EfUITest$TestThemesPostsUsersCmtPB.coverage" NAME="TestThemesPostsUsersCmtPB Coverage Results" MODIFIED="1573286374987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Usecase" />
+    <SUITE FILE_PATH="coverage/EfUITest$ViewEveryThemes.coverage" NAME="ViewEveryThemes Coverage Results" MODIFIED="1573280868369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Usecase" />
+    <SUITE FILE_PATH="coverage/EfUITest$PostPage.coverage" NAME="PostPage Coverage Results" MODIFIED="1573289409777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageObject" />
   </component>
 </project>

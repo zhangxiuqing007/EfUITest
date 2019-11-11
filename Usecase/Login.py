@@ -5,7 +5,7 @@ from PageObject.LoginSuccessPage import LoginSuccessPage
 import time
 
 
-def login_finalTo_indexPage(driver: webdriver.Chrome, account: str, pwd: str):
+def login_final_to_index_page(driver: webdriver.Chrome, account: str, pwd: str):
     index_page = IndexPage(driver, True)
     if index_page.is_login():
         print("目前处于登录状态，先注销")
@@ -22,5 +22,5 @@ def login_finalTo_indexPage(driver: webdriver.Chrome, account: str, pwd: str):
 
 
 if __name__ == "__main__":
-    login_finalTo_indexPage(webdriver.Chrome(), "erbadao", "erbadao")
+    login_final_to_index_page(webdriver.Chrome(), "erbadao", "erbadao")
     time.sleep(2)
